@@ -1,0 +1,36 @@
+# CLion 的工程配置文件（不建议同步）
+.idea/
+
+# 构建生成目录（cmake 的输出目录）
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# CMake 生成的缓存和文件
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# 编译输出
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+
+# 日志文件
+*.log
+
+# 临时文件
+*.tmp
+*.swp
+
+# Mac 系统文件（可选）
+.DS_Store
+
+# Windows 特有文件（可选）
+Thumbs.db
